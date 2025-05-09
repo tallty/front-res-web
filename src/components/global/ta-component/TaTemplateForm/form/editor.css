@@ -1,0 +1,21 @@
+/* https://ckeditor.com/docs/ckeditor5/latest/framework/guides/deep-dive/ui/theme-customization.html */
+:root {
+  /* Overrides the border radius setting in the theme. */
+  --ck-border-radius: 0px !important;
+  /* Overrides the default font size in the theme. */
+  --ck-font-size-base: 14px !important;
+  /* Helper variables to avoid duplication in the colors. */
+  --ck-custom-background: hsl(0, 0%, 100%) !important;
+  --ck-custom-foreground: hsl(255, 3%, 18%) !important;
+  --ck-custom-border: hsl(0, 0%, 100%) !important;
+  --ck-custom-white: hsl(0, 0%, 100%) !important;
+  /* -- Overrides generic colors. ------------------------------------------------------------- */
+  --ck-color-base-foreground: var(--ck-custom-background) !important;
+  --ck-color-focus-border: transparent !important;
+  --ck-color-text: hsl(240, 1%, 20%) !important;
+  --ck-color-shadow-drop: hsla(0, 0%, 0%, 0.2) !important;
+  --ck-color-shadow-inner: transparent !important;
+  /* -- Overrides the default .ck-toolbar class colors. --------------------------------------- */
+  --ck-color-toolbar-background: var(--ck-custom-background) !important;
+  --ck-color-toolbar-border: var(--ck-custom-border) !important;
+}

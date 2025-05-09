@@ -1,0 +1,31 @@
+import type {
+  TaIndexViewTabSpecialInterface,
+  TaIndexViewConfigInterface,
+  TaIndexViewTabInterface,
+  TaIndexSearcherOptionInterface,
+  TaIndexImportHeader,
+  TaIndexViewFetchDataOptsInterface,
+  TaIndexViewPaginationConfigInterface,
+  TaIndexViewTableConfigInterface,
+  TaIndexTablePaginationInterface,
+  TaIndexViewTagInterface,
+  TaIndexTableSorterInterface,
+  TaIndexViewListConfigInterface,
+  TaIndexViewTreeConfigInterface,
+} from './ta-index-view-core/types';
+
+export {
+  TaIndexViewTabSpecialInterface,
+  TaIndexViewConfigInterface,
+  TaIndexViewTabInterface,
+  TaIndexSearcherOptionInterface,
+  TaIndexImportHeader,
+  TaIndexViewFetchDataOptsInterface,
+  TaIndexViewPaginationConfigInterface,
+  TaIndexViewTableConfigInterface,
+  TaIndexTablePaginationInterface,
+  TaIndexViewTagInterface,
+  TaIndexTableSorterInterface,
+  TaIndexViewListConfigInterface,
+  TaIndexViewTreeConfigInterface,
+};

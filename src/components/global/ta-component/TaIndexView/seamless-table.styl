@@ -1,0 +1,200 @@
+
+.zebra
+  >>> *
+    font-size 30px
+    background transparent !important
+    color white
+  >>> .ta-table-component__table
+    padding 0 !important
+  >>> table
+    border none
+    border-collapse separate
+    border-spacing 0 1rem
+  >>> tr:has(th)
+    background #031b3a !important
+  >>> tr
+    height 1px
+    th
+      // background #0069AA !important
+      height 1px
+      border-bottom 0px !important
+      padding-top 0 !important
+      padding-bottom 0 !important
+      .table-header-cell
+        height 100%
+        word-break break-all
+        white-space break-spaces
+        // margin 0.5rem
+        display flex
+        justify-content center
+        align-items flex-end
+  >>> :where(.table-header-cell)
+    border-bottom 1px solid #8AE9ED
+  >>> .body-table .table-header-cell
+    border-bottom 0
+  >>> .ant-table-cell
+    border-bottom 0
+  // >>> .ant-table-row
+  // &:hover
+  // background transparent !important
+  >>> .ant-table-cell-row-hover
+    background transparent !important
+    text-shadow 0px 0px 1px rgb(255 255 255 / 20%), 0px 0px 1px rgb(255 255 255 / 10%) !important
+  >>> :not(thead) > tr:nth-child(2n)
+    background linear-gradient(93.3deg, rgba(105, 180, 243, 0.2) 22.08%, rgba(105, 180, 243, 0.2) 91.33%) !important
+  >>> :not(thead) > tr:nth-child(2n+1)
+    background linear-gradient(93.3deg, rgba(105, 180, 243, 0.6) 22.08%, rgba(105, 180, 243, 0.6) 91.33%) !important
+  >>> tr td:first-child
+    border-radius 6px 0 0 6px
+  >>> tr td:last-child
+    border-radius 0 6px 6px 0
+  >>> .table-body-cell
+    padding-left 16px
+  >>> .ant-spin-blur::after
+    // loading 时的背景
+    opacity 0
+.zebra-2
+  >>> *
+    font-size 30px
+    background transparent !important
+    color white
+  >>> ul
+    display flex
+    align-items center
+    justify-content end
+  >>>ul li
+    width 60px !important
+    height 60px !important
+    display flex
+    align-items center
+    justify-content center
+  >>>ul li:last-child
+    width fit-content !important
+  >>> li a
+    color white
+  >>> li button:has(span)
+    display flex !important
+    justify-content center
+    align-items center
+  >>> .ta-table-component__table
+    padding 0 !important
+  >>> table
+    border none
+    // font-size 30px !important
+    border-collapse separate
+    // border-spacing 0 1rem
+    border-spacing 0 0
+  >>> tr:has(th)
+    background #0069AA !important
+  >>> .header-table th
+    background #0069AA !important // 兼容滚动表格和表格
+  >>> .body-table th
+    height 0px
+    overflow hidden
+  >>> .table-header-cell
+    word-break break-all
+    white-space break-spaces
+    margin 0.5rem
+    // padding 0.5rem 0
+    text-align center
+  // >>> .header-table .table-header-cell
+  // border-bottom 1px solid #8AE9ED
+  >>> .ant-table-cell
+    border-bottom 0
+  >>> .ant-select-selector
+    height 60px !important
+    display flex
+    align-items center
+  >>> .ant-select-arrow
+    span
+      svg
+        font-size 20px
+  >>> .ant-pagination-options-quick-jumper
+    height 60px !important
+    display flex
+    justify-content center
+    align-items center
+    input
+      height 60px
+      width 120px
+  >>> .ant-pagination-item-ellipsis
+    color white !important
+    font-size 14px !important
+  // >>> .ant-table-row
+  // &:hover
+  // background transparent !important
+
+  // >>> .ant-table-cell-row-hover
+  // text-shadow 0px 0px 1px rgb(255 255 255 / 20%), 0px 0px 1px rgb(255 255 255 / 10%) !important
+  >>> :not(thead) > tr:nth-child(2n+1)
+    background transparent !important
+    // background linear-gradient(93.3deg, rgba(105, 180, 243, 0.2) 22.08%, rgba(105, 180, 243, 0.2) 91.33%) !important
+  >>> :not(thead) > tr:nth-child(2n)
+    // background linear-gradient(93.3deg, rgba(105, 180, 243, 0.6) 22.08%, rgba(105, 180, 243, 0.6) 91.33%) !important
+    background linear-gradient(93.3deg, rgba(105, 180, 243, 0.4) 22.08%, rgba(105, 180, 243, 0.4) 91.33%) !important
+  >>> .ant-table-cell-row-hover
+    background transparent !important
+    text-shadow 0px 0px 1px rgb(255 255 255 / 20%), 0px 0px 1px rgb(255 255 255 / 10%) !important
+  >>> tr td:first-child
+    border-radius 6px 0 0 6px
+  >>> tr td:last-child
+    border-radius 0 6px 6px 0
+  // >>> .table-body-cell
+  // padding-left 16px
+  >>> .ant-spin-blur::after
+    // loading 时的背景
+    opacity 0
+.pure
+  >>> *
+    font-size 30px
+    background transparent !important
+    color white
+  >>> .ta-table-component__table
+    padding 0 !important
+  >>> table
+    border none
+    border-collapse separate
+  >>> tr:has(th)
+    background #031b3a !important
+  >>> tr
+    height 1px
+    th
+      // background #0069AA !important
+      height 1px
+      border-bottom 0px !important
+      padding-top 0 !important
+      padding-bottom 0 !important
+      .table-header-cell
+        height 100%
+        word-break break-all
+        white-space break-spaces
+        // margin 0.5rem
+        display flex
+        justify-content center
+        align-items flex-end
+  >>> :where(.table-header-cell)
+    border-bottom 1px solid #8AE9ED
+  >>> .body-table .table-header-cell
+    border-bottom 0
+  >>> .ant-table-cell
+    border-bottom 0
+  // >>> .ant-table-row
+  // &:hover
+  // background transparent !important
+  >>> .ant-table-cell-row-hover
+    background transparent !important
+    text-shadow 0px 0px 1px rgb(255 255 255 / 20%), 0px 0px 1px rgb(255 255 255 / 10%) !important
+  // >>> :not(thead) > tr:nth-child(2n)
+  // background linear-gradient(93.3deg, rgba(105, 180, 243, 0.2) 22.08%, rgba(105, 180, 243, 0.2) 91.33%) !important
+
+  // >>> :not(thead) > tr:nth-child(2n+1)
+  // background linear-gradient(93.3deg, rgba(105, 180, 243, 0.6) 22.08%, rgba(105, 180, 243, 0.6) 91.33%) !important
+  >>> tr td:first-child
+    border-radius 6px 0 0 6px
+  >>> tr td:last-child
+    border-radius 0 6px 6px 0
+  >>> .table-body-cell
+    padding-left 16px
+  >>> .ant-spin-blur::after
+    // loading 时的背景
+    opacity 0
